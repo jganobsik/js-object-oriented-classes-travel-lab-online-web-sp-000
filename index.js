@@ -17,7 +17,7 @@ class Route {
   }
 
 blocksTravelled(){
-  return Math.abs(eastWest.indexOf(this.endingLocation) - eastWest.indexOF(this.beginningLocation))
+  return Math.abs(eastWest.indexOf(this.endingLocation) - eastWest.indexOf(this.beginningLocation))
 }  
   
   
